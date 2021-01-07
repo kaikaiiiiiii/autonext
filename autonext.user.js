@@ -11,7 +11,7 @@
 (function() {
     'use strict';
     const clickNextButton = () => {
-        var buttona = document.querySelector('button.van-dialog__confirm');
+        var buttona = document.querySelector('button.van-dialog__confirm.van-hairline--left');
         if (buttona) {
             buttona.click();
         }
