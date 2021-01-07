@@ -11,8 +11,10 @@
 (function() {
     'use strict';
     const clickNextButton = () => {
+        //var buttona = document.querySelector('button.van-dialog__confirm.van-hairline--left');
+        var buttonf = document.querySelector('div[aria-labelledby="恭喜您，已完成学习"]');
         var buttona = document.querySelector('button.van-dialog__confirm.van-hairline--left');
-        if (buttona) {
+        if (buttona && buttonf == null) {
             buttona.click();
         }
     }
